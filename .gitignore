@@ -83,3 +83,6 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+gradlew*
+.idea
+buildSrc/src/main/kotlin/API.kt

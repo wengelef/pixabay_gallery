@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PixabayGallery</string>
+    <string name="this_is_an_error">This is an Error</string>
+    <string name="this_is_loading">This is Loading</string>
+    <string name="dialog_title">Do you want to see more Details?</string>
+    <string name="dialog_yes">Yes Please!</string>
+    <string name="dialog_no">No Thanks!</string>
+</resources>

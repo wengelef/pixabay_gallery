@@ -1,0 +1,22 @@
+CREATE TABLE dbHit (
+  id TEXT NOT NULL,
+  previewUrl TEXT NOT NULL,
+  largeImageUrl TEXT NOT NULL,
+  user TEXT NOT NULL,
+  tags TEXT NOT NULL,
+  likes INTEGER AS Integer NOT NULL,
+  downloads INTEGER AS Integer NOT NULL,
+  comments INTEGER AS Integer NOT NULL
+);
+
+getAll:
+SELECT * FROM dbHit;
+
+findById:
+SELECT * FROM dbHit WHERE id = ?;
+
+removeAll:
+DELETE FROM dbHit;
+
+insert:
+INSERT INTO dbHit VALUES (?, ?, ?, ?, ?, ?, ?, ?);
